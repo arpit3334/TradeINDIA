@@ -1,0 +1,13 @@
+.purchased-product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.purchased-product h3 {
+    margin-top: 0;
+}
+
+.purchased-product p {
+    margin: 5px 0;
+}

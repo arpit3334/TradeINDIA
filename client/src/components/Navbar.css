@@ -1,0 +1,149 @@
+.navbar {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #0d0c0c;
+  color: #fff;
+}
+
+.logo{
+  font-size: x-large;
+  margin: 0;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input[type="text"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #333;
+  width: 5%;
+}
+.search-bar input[type="text"]:hover {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #dedbdb;
+  width: 100%;
+  transition: all ease 0.5s;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #e73f3f;
+  border: none;
+  border-radius: 0.25rem;
+  color: #f1ededf2;
+  cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-address,
+.balance {
+  margin-right: 1rem;
+}
+
+.cart {
+  margin-right: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 0.5rem;
+}
+
+.add-product-btn {
+  padding: 0.5rem 1rem;
+  background-color: #555;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #f9f9f9ef;
+  padding: 2rem;
+  color: #0d0c0c;
+  border-radius: 0.5rem;
+  width: 60%; /* Increased width */
+  max-height: 80vh; /* Decreased height */
+  overflow-y: auto; /* Added scroll functionality */
+}
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #555; /* Adjusted color */
+}
+
+.form-group {
+  margin-bottom: 1.5rem; /* Increased margin */
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1rem; /* Increased margin */
+  color: #555; /* Adjusted color */
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+form button[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #555;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+form button[type="submit"]:hover {
+  background-color: #333;
+}
